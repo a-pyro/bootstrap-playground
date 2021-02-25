@@ -34,7 +34,7 @@ html {
 
 body {
   background-color: #303030;
-  color: var(--clr-dark);
+  color: var(--clr-light);
   font-family: var(--ff-primary);
   /* font-size: var(--fs-body); */
   /* line-height: 1.6; */
@@ -67,21 +67,6 @@ img {
   background-color: darkgrey;
   border-radius: 8px;
   width: 20px;
-}
-
-i.fas {
-  /* position: absolute; */
-  cursor: pointer;
-  z-index: 1000;
-}
-
-i.fa-chevron-circle-left {
-  position: sticky;
-  left: 5px;
-}
-i.fa-chevron-circle-right {
-  position: sticky;
-  right: 9px;
 }
 
 @media (max-width: 992px) {
